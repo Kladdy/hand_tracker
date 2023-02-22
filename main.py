@@ -34,8 +34,8 @@ while True:
         # mouse_y = screen_mid_y + dy
 
         # Get the mouse_x by mapping the x1 to the screen width
-        mouse_x = int(monitor_width - x1 * (monitor_width / capture_width)) # due to flipped x axis
-        mouse_y = int(y1 * (monitor_height / capture_height))
+        mouse_x = int(monitor_width - x2 * (monitor_width / capture_width)) # due to flipped x axis
+        mouse_y = int(y2 * (monitor_height / capture_height))
         
         
 
